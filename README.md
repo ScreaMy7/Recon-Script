@@ -14,4 +14,5 @@ This is the normal workflow of the script.
 
 ### Work in progress
 1.Update the custom to get more jsfiles.
+
 2.Auto updation of wordlist so that result get better each time it runs.

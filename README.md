@@ -12,7 +12,18 @@ This is the normal workflow of the script.
 6. Run httpx on the resolved subdomains to check which are alive.
 7. Run my custom scripts to jsfiles , and header and response.
 
+### Usage
+The usage of scripts the is simple.
+```
+./recon.sh hackerone.com hackerone
+./recon.sh hackerone.com,bugcrowd.com BBplatforms
+```
+The first argument take the root domains and second domain takes make name of folder under which the data is stored. 
+
+### Note
+The recon.sh stores data of each tool individually ,so that I inspect the performance for each tool.Here I have removed those intermediate files.
+
 ### Work in progress
-1.Update the custom to get more jsfiles.
+1.Update the custom jsfiles.sh to get more jsfiles.
 
 2.Auto updation of wordlist so that result get better each time it runs.
